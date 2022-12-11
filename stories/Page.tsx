@@ -22,6 +22,8 @@ export const Page: React.VFC = () => {
         onLogout={() => setUser(undefined)}
         onCreateAccount={() => setUser({ name: "Jane Doe" })}
       />
+      <h1>This is 2nd change git push</h1>
+      <h1>This is the first change</h1>
       <h1>Image test</h1>
       <Image alt="image" width={100} height={100} src={googleImg} />
       <h1>link test</h1>
